@@ -1,4 +1,21 @@
+body{
+    margin:0;
+    padding:0;
+    background:transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+img{
+    image-rendering:pixelated;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+/* Move only the Y down */
 .move-y{
-    position: relative;
-    top: 6px;    /* Move down */
+    position:relative;
+    top:6px;      /* Increase this value to move it lower */
 }
