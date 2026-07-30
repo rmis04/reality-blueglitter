@@ -17,5 +17,5 @@ img{
 /* Move only the Y down */
 .move-y{
     position:relative;
-    top:2px;      /* Increase this value to move it lower */
+    top:-2px;      /* Increase this value to move it lower */
 }
